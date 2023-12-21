@@ -4,3 +4,5 @@ Tesing general CNN models with [torchvision](https://pytorch.org/vision/stable/i
 2. VGG
 3. GoogLenet
 4. Resnet
+5. Densenet
+6. Mobilenet
