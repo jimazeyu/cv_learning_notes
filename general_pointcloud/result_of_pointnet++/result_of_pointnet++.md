@@ -1,7 +1,5 @@
 # result of pointnet & pointnet++
 
-This document contains the execution results for pointnet++ & pointnet, with code from [https://github.com/yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch). Based on this code, options to start from a checkpoint and to generate accuracy variation curves during the training process have been added. Test runs for classification (ModelNet10/40), Part Segmentation (ShapeNet), and Semantic Segmentation (S3DIS) have been conducted to obtain accuracy and accuracy variation curves. For the training and testing of classification, ‘classification.ipynb’ was created and executed.
-
 # Classification
 
 The classification algorithm can use either ModelNet10 or ModelNet40. It allows the choice of whether to use the normal features of points (—use_normals) and the sampling method, such as uniform sampling (—use_uniform_sample). I have chosen several options for training.
@@ -15,13 +13,13 @@ The classification algorithm can use either ModelNet10 or ModelNet40. It allows 
 
 ## Accuracy variation curves(According to the order in the table above)
 
-![pointnet2_ssg without normal features.png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/pointnet2_ssg_without_normal_features.png)
+![pointnet2_ssg without normal features.png](result_of_pointnet++/pointnet2_ssg_without_normal_features.png)
 
-![pointnet2_ssg with normal features.png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/pointnet2_ssg_with_normal_features.png)
+![pointnet2_ssg with normal features.png](result_of_pointnet++/pointnet2_ssg_with_normal_features.png)
 
-![pointnet2_ssg with uniform sampling.png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/pointnet2_ssg_with_uniform_sampling.png)
+![pointnet2_ssg with uniform sampling.png](result_of_pointnet++/pointnet2_ssg_with_uniform_sampling.png)
 
-![ModelNet10 pointnet2_ssg without normal features .png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/ModelNet10_pointnet2_ssg_without_normal_features_.png)
+![ModelNet10 pointnet2_ssg without normal features .png](result_of_pointnet++/ModelNet10_pointnet2_ssg_without_normal_features_.png)
 
 # **Part Segmentation (ShapeNet)**
 
@@ -46,7 +44,7 @@ Class avg accuracy is: 0.86904
 Class avg mIOU is: 0.82145
 Inctance avg mIOU is: 0.85188
 
-![Part Segmentation (ShapeNet).png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/Part_Segmentation_(ShapeNet).png)
+![Part Segmentation (ShapeNet).png](result_of_pointnet++/Part_Segmentation_(ShapeNet).png)
 
 # **Semantic Segmentation (S3DIS)**
 
@@ -70,8 +68,8 @@ eval whole scene point accuracy: 0.826357
 
 **batch size=16**
 
-![Semantic Segmentation batchsize=16.png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/Semantic_Segmentation_batchsize16.png)
+![Semantic Segmentation batchsize=16.png](result_of_pointnet++/Semantic_Segmentation_batchsize16.png)
 
 **batch size=32**
 
-![Semantic Segmentation batchsize=32.png](result%20of%20pointnet%20&%20pointnet++%20886dea1d341147fbadbac21b925bc3f8/Semantic_Segmentation_batchsize32.png)
+![Semantic Segmentation batchsize=32.png](result_of_pointnet++/Semantic_Segmentation_batchsize32.png)
