@@ -1,7 +1,7 @@
 # Deep Learning Notes
 - [General CNN Models](https://github.com/jimazeyu/deep_learning_notes/tree/main/general_cnn)
 - [RNN Models](https://github.com/jimazeyu/deep_learning_notes/tree/main/rnn)
-- Vision Transformer
+- [Vision Transformer](https://github.com/jimazeyu/deep_learning_notes/tree/main/vit)
 - [nerf](https://github.com/jimazeyu/deep_learning_notes/tree/main/nerf)
 - 2D Object Detection
 - 2D Semantic Segmentation
