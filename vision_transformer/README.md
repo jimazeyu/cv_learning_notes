@@ -3,3 +3,5 @@
 2. Simple realization of Vit(all modules from torch)
 3. Directly use nn.VisionTransformer
 4. Train with pretrained torchvision weights
+
+![frame](frame.png)
