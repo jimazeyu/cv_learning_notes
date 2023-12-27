@@ -5,8 +5,7 @@
 - [NeRF](https://github.com/jimazeyu/deep_learning_notes/tree/main/nerf)
 - 2D Object Detection
 - 2D Semantic Segmentation
-- [General Point Cloud processing](https://github.com/jimazeyu/deep_learning_notes/tree/main/general_pointcloud)
+- [Point Cloud Cls and Seg](https://github.com/jimazeyu/deep_learning_notes/tree/main/general_pointcloud)
 - 3D Object Detection
-- 3D Semantic Segmentation
 - [Large Vision Model](https://github.com/jimazeyu/deep_learning_notes/tree/main/LVM)
 - Reinforcement Learning
