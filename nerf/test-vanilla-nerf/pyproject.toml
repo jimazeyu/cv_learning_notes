@@ -1,0 +1,15 @@
+[project]
+name = "test-vanilla-nerf"
+description = "Build vanilla nerf with the template."
+version = "0.1.0"
+
+dependencies = ["nerfstudio >= 0.3.0"] 
+
+[tool.setuptools.packages.find]
+include = ["test_nerf*"]
+
+# register the entry point of your new method here:
+[project.entry-points.'nerfstudio.method_configs']
+
+# {module_to_call} = '{file_name}.{config_python_file}:{object_name_in_file}'
+test-nerf = 'test_nerf.my_config:test_nerf'
