@@ -1,4 +1,4 @@
-# General Point Cloud processing
+# Point Cloud Cls and Seg
 This floder contains the execution results for pointnet++ & pointnet, with code from [https://github.com/yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch). Based on this code, options to start from a checkpoint and to generate accuracy variation curves during the training process have been added. Test runs for classification (ModelNet10/40), Part Segmentation (ShapeNet), and Semantic Segmentation (S3DIS) have been conducted to obtain accuracy and accuracy variation curves. For the training and testing of classification, ‘classification.ipynb’ was created and exeData Preparation
 
 
