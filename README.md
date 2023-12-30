@@ -1,4 +1,4 @@
-# Computer Vision Notes
+# CV Deep Learning Notes
 - [General CNN Models](https://github.com/jimazeyu/deep_learning_notes/tree/main/general_cnn)
 - [RNN Models](https://github.com/jimazeyu/deep_learning_notes/tree/main/rnn)
 - [Vision Transformer](https://github.com/jimazeyu/deep_learning_notes/tree/main/vision_transformer)
