@@ -8,4 +8,3 @@
 - [Point Cloud Cls and Seg](https://github.com/jimazeyu/deep_learning_notes/tree/main/general_pointcloud)
 - 3D Object Detection
 - [Large Vision Model](https://github.com/jimazeyu/deep_learning_notes/tree/main/LVM)
-- Reinforcement Learning
